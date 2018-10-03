@@ -18,7 +18,7 @@ protocol ScreenBlockerInput {
 
 // MARK: -
 
-class ScreenBlocker {
+public class ScreenBlocker {
 
     // MARK: singleton instance variables
 

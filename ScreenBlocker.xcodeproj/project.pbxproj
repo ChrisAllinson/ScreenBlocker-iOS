@@ -20,6 +20,7 @@
 		56D32AB921652C26003D589F /* ScreenBlockerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D32AB321652C26003D589F /* ScreenBlockerViewController.swift */; };
 		56D32ABC21652C6B003D589F /* ScreenBlockerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D32ABB21652C6B003D589F /* ScreenBlockerTests.swift */; };
 		56D32ABE21652D0D003D589F /* XCTestCase+Sleep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D32ABD21652D0D003D589F /* XCTestCase+Sleep.swift */; };
+		56D32AC021653384003D589F /* ScreenBlocker-iOS.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 56D32ABF21653384003D589F /* ScreenBlocker-iOS.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		56D32AB321652C26003D589F /* ScreenBlockerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenBlockerViewController.swift; sourceTree = "<group>"; };
 		56D32ABB21652C6B003D589F /* ScreenBlockerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScreenBlockerTests.swift; path = "ScreenBlocker/libs/screen blocker/tests/ScreenBlockerTests.swift"; sourceTree = SOURCE_ROOT; };
 		56D32ABD21652D0D003D589F /* XCTestCase+Sleep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Sleep.swift"; sourceTree = "<group>"; };
+		56D32ABF21653384003D589F /* ScreenBlocker-iOS.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ScreenBlocker-iOS.podspec"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				56D32A6121652B98003D589F /* Main.storyboard */,
 				56D32AAB21652C26003D589F /* libs */,
 				56D32A6921652B99003D589F /* Info.plist */,
+				56D32ABF21653384003D589F /* ScreenBlocker-iOS.podspec */,
 			);
 			path = ScreenBlocker;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				56D32AB821652C26003D589F /* README.md in Resources */,
 				56D32A6821652B99003D589F /* LaunchScreen.storyboard in Resources */,
 				56D32A6521652B99003D589F /* Assets.xcassets in Resources */,
+				56D32AC021653384003D589F /* ScreenBlocker-iOS.podspec in Resources */,
 				56D32AB721652C26003D589F /* ScreenBlockerViewController.xib in Resources */,
 				56D32AB521652C26003D589F /* LICENSE in Resources */,
 				56D32A6321652B98003D589F /* Main.storyboard in Resources */,

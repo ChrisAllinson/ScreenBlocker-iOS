@@ -37,7 +37,7 @@ The overlay fades out once your app is foregrounded again.
 ## How To Use
 
 Simply import ScreenBlocker-iOS in AppDelegate:
-<br />
+<br>
 `import ScreenBlocker_iOS`
 
 Add the following to AppDelegate's applicationWillResignActive:
@@ -49,6 +49,7 @@ or
 `ScreenBlocker.shared.show(bgColor: UIColor.someColor)`
 
 Add the following to AppDelegate's applicationDidBecomeActive:
+<br>
 `ScreenBlocker.shared.hide()`
 
 
@@ -57,7 +58,7 @@ Add the following to AppDelegate's applicationDidBecomeActive:
 
 ## License
 
-[EULA](LICENSE)
+[EULA](ScreenBlocker/libs/screen%20blocker/LICENSE)
 
 
 <br>
