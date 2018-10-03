@@ -22,7 +22,7 @@ public class ScreenBlocker {
 
     // MARK: singleton instance variables
 
-    static let shared = ScreenBlocker()
+    public static let shared = ScreenBlocker()
 
     private var overlay: ScreenBlockerViewController?
 }
