@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name        = "ScreenBlocker-iOS"
-  s.version     = "1.0.0"
+  s.version     = "1.0.1"
   s.summary     = "ScreenBlocker adds an overlay to your app when it is backgrounded, masking the content."
   s.homepage    = "https://github.com/ChrisAllinson/ScreenBlocker-iOS"
   s.license     = { :type => "MIT", :file => "ScreenBlocker/libs/screen blocker/LICENSE" }
