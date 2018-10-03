@@ -1,6 +1,6 @@
 # ScreenBlocker-iOS
 
-v1.0.2
+v1.0.3
 
 
 <br>
@@ -20,7 +20,7 @@ The overlay fades out once your app is foregrounded again.
 
 [CocoaPods](http://cocoapods.org)
 
-`pod 'ScreenBlocker-iOS', '1.0.2'`
+`pod 'ScreenBlocker-iOS', '1.0.3'`
 
 [Carthage](https://github.com/Carthage/Carthage)
 
@@ -36,7 +36,7 @@ The overlay fades out once your app is foregrounded again.
 
 ## How To Use
 
-Simply import ScreenBlocker-iOS in AppDelegate:
+Import ScreenBlocker-iOS in AppDelegate:
 <br />
 `import ScreenBlocker_iOS`
 

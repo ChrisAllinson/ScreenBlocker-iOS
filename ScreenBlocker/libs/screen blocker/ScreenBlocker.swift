@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 
-protocol ScreenBlockerInput {
+public protocol ScreenBlockerInput {
     func show(bgColor: UIColor?)
     func hide()
 }
@@ -34,7 +34,7 @@ extension ScreenBlocker: ScreenBlockerInput {
     
     // MARK: ScreenBlockerInput
     
-    func show(bgColor: UIColor? = .black) {
+    public func show(bgColor: UIColor? = .black) {
         overlay = ScreenBlockerViewController()
         guard let tempOverlay = overlay else {
             return
@@ -45,7 +45,7 @@ extension ScreenBlocker: ScreenBlockerInput {
         tempOverlay.show(bgColor: bgColor)
     }
 
-    func hide() {
+    public func hide() {
         guard let tempOverlay = overlay else {
             return
         }
